@@ -1,0 +1,16 @@
+{
+  "name": "quickbite",
+  "version": "1.0.0",
+  "description": "QuickBite website with SQLite backend for SIT774 10.2D/10.3HD",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "initdb": "node createDB.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-session": "^1.17.3",
+    "sqlite3": "^5.1.7"
+  }
+}
